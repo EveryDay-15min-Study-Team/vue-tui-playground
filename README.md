@@ -1,21 +1,33 @@
 # vue-tui-playground
 
-> A Vue.js project
+> 네이버의 오픈소스인 tui.editor와 vue.js를 이용한 놀이터 프로젝트.
 
-## Build Setup
+## Used Tech Stack
+* Package Manager
+  * [yarn][yarn]
+* Vue.js Projects Generator.
+  * [vue-cli][vue-cli]
+* Using ESLint AirBnB Style.
+  * [airbnb javascript style guide][eslint]
+* Markdown Editor
+  * [tui.editor][tui.editor]
+
+## Build Setup (Using yarn)
+
+> 패키징 매니저는 npm 대신 yarn을 사용함.
 
 ``` bash
 # install dependencies
-npm install
+yarn install
 
 # serve with hot reload at localhost:8080
-npm run dev
+yarn run dev
 
 # build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+yarn run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+[yarn]: https://yarnpkg.com/lang/en/
+[vue-cli]: https://github.com/vuejs-kr/vue-cli
+[tui.editor]: https://github.com/nhnent/tui.editor
+[eslint]: https://github.com/airbnb/javascript
